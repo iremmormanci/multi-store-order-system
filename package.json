@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "geolib": "^3.3.4",
+    "ulid": "^3.0.0"
+  },
+  "name": "e-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "ava": "^6.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.ts"
+    ],
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

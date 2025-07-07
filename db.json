@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "01JWDSDH7DQS5EEFSYS9C2MXWD",
+      "name": "İrem",
+      "surname": "Ormancı",
+      "phone": "5524616059",
+      "email": "iremxx@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "01JWDSDH7DY3W28PST7V1QP72X",
+      "name": "Kalem",
+      "price": 10,
+      "stock": {
+        "value": 7,
+        "reserve": 0
+      }
+    }
+  ],
+  "carts": [
+    {
+      "userId": "01JWDSDH7DQS5EEFSYS9C2MXWD",
+      "items": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "01JWDSDH7E7M2PZ4P65F7GWPV1",
+      "userId": "01JWDSDH7DQS5EEFSYS9C2MXWD",
+      "total": 10,
+      "items": [
+        {
+          "productId": "01JWDSDH7DY3W28PST7V1QP72X",
+          "quantity": 3
+        }
+      ],
+      "createdAt": "2025-05-29T10:29:15.117Z"
+    }
+  ],
+  "stores":[]
+}
